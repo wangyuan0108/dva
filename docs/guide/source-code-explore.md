@@ -433,7 +433,7 @@ const store = createStore(
 
 这么看 dva 真的是很薄的一层封装。
 
-而 dva-core 主要解决了 model 的问题，包括 state 管理、数据的异步加载、订阅-发布模式的实现，可以作为数据层在别处使用(看 2.0 更新也确实是作者的意图)。使用的状体啊管理库还是 redux，异步加载的解决方案是 saga。当然，一切也都写在 index.js 和 package.json 里。
+而 dva-core 主要解决了 model 的问题，包括 state 管理、数据的异步加载、订阅-发布模式的实现，可以作为数据层在别处使用(看 2.0 更新也确实是作者的意图)。使用的状态管理库还是 redux，异步加载的解决方案是 saga。当然，一切也都写在 index.js 和 package.json 里。
 
 ## 视图与数据(下)
 
